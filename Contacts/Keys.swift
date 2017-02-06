@@ -15,5 +15,4 @@ struct Keys {
     let phoneKey = "Phone"
     let emailKey = "Email"
     let recordKey = "Contact"
-    let thingWeWontUse = "yeah"
 }
