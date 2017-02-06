@@ -18,6 +18,7 @@
 		538F68A21E295B0A00F4DF1B /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538F68A01E295B0A00F4DF1B /* ContactDetailViewController.swift */; };
 		538F68A61E295B2500F4DF1B /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538F68A41E295B2500F4DF1B /* Keys.swift */; };
 		538F68A71E295B2500F4DF1B /* CloudKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538F68A51E295B2500F4DF1B /* CloudKitManager.swift */; };
+		53E35C5A1E493A4000B596E9 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E35C591E493A4000B596E9 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		538F68A01E295B0A00F4DF1B /* ContactDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailViewController.swift; sourceTree = "<group>"; };
 		538F68A41E295B2500F4DF1B /* Keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 		538F68A51E295B2500F4DF1B /* CloudKitManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudKitManager.swift; sourceTree = "<group>"; };
+		53E35C591E493A4000B596E9 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				538F689A1E295AED00F4DF1B /* Contact.swift */,
+				53E35C591E493A4000B596E9 /* Person.swift */,
 				538F689B1E295AED00F4DF1B /* ContactController.swift */,
 			);
 			name = "Model & Controller";
@@ -196,6 +199,7 @@
 				538F68831E295AA900F4DF1B /* AppDelegate.swift in Sources */,
 				538F68A71E295B2500F4DF1B /* CloudKitManager.swift in Sources */,
 				538F68A11E295B0A00F4DF1B /* ContactsTableViewController.swift in Sources */,
+				53E35C5A1E493A4000B596E9 /* Person.swift in Sources */,
 				538F689D1E295AED00F4DF1B /* ContactController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,6 +356,7 @@
 				538F68931E295AA900F4DF1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
